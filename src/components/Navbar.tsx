@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -19,14 +18,7 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16">
                     <div className="flex-shrink-0 flex items-center">
-                        <Link href="/" className="flex items-center">
-                            <Image
-                                src="/next.svg"
-                                alt="Logo"
-                                width={32}
-                                height={32}
-                                className="dark:invert"
-                            />
+                        <Link href="/" className="flex items-center relative group">
                             <span className="ml-2 text-xl font-bold">王秀文的博客</span>
                         </Link>
                     </div>

@@ -67,13 +67,13 @@ export default function Home() {
                         </div>
                         <div className="flex-1 bg-gray-100 dark:bg-gray-800 rounded-lg p-4 space-y-4">
                             <div className="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden hover:border-blue-500 dark:hover:border-blue-400 transition-colors">
-                                <div className="relative aspect-video bg-gray-100 dark:bg-gray-800 overflow-hidden p-4 group">
+                                <div className="relative aspect-video bg-gray-100 dark:bg-gray-800 overflow-hidden p-4 group hover:overflow-visible">
                                     <Image
                                         src="/screenshot-search.png"
                                         alt="uunit 项目截图"
                                         width={800}
                                         height={450}
-                                        className="object-contain transform -rotate-5 opacity-90 w-full h-full transition-transform duration-300 group-hover:rotate-0 group-hover:scale-105"
+                                        className="object-contain transform -rotate-5 opacity-90 w-full h-full transition-all duration-300 group-hover:rotate-0 group-hover:scale-125 group-hover:z-10"
                                         style={{ objectFit: 'contain', padding: '1rem' }}
                                     />
                                 </div>
@@ -92,6 +92,9 @@ export default function Home() {
                                         <span className="inline-flex items-center px-2 py-1 rounded-md text-xs font-medium bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-300">爬虫</span>
                                         <span className="inline-flex items-center px-2 py-1 rounded-md text-xs font-medium bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300">多线程</span>
                                         <span className="inline-flex items-center px-2 py-1 rounded-md text-xs font-medium bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300">桌面客户端</span>
+                                        <span className="inline-flex items-center px-2 py-1 rounded-md text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-300">
+                                            <a href='https://github.com/wangxiuwen/uunit/releases'>下载地址</a>
+                                        </span>
                                     </div>
                                     <a href="https://github.com/wangxiuwen/uunit" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-sm font-medium">查看详情 →</a>
                                 </div>

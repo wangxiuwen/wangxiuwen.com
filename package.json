@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pm2-start": "pm2 start npm --name 'wangxiuwen.com' -- start"
   },
   "dependencies": {
     "@octokit/rest": "^21.1.1",
