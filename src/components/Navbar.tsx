@@ -19,7 +19,7 @@ const Navbar = () => {
                 <div className="flex justify-between h-16">
                     <div className="flex-shrink-0 flex items-center">
                         <Link href="/" className="flex items-center relative group">
-                            <span className="ml-2 text-xl font-bold">王秀文的博客</span>
+                            <span className="ml-2 text-xl font-bold">王秀文的小站</span>
                         </Link>
                     </div>
 
