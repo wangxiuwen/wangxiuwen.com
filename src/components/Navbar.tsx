@@ -9,7 +9,7 @@ const Navbar = () => {
 
     const navLinks = [
         { href: '/', label: '首页' },
-        { href: 'https://blog.wangxiuwen.com', label: '博客' },
+        { href: 'https://blog.wangxiuwen.com', label: '笔记' },
         { href: '/about', label: '关于我' },
     ];
 
