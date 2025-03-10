@@ -121,7 +121,7 @@ export default function Home() {
                                     />
                                 </div>
                                 <div className="p-4">
-                                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">爱情鸟</h3>
+                                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">lovebird</h3>
                                     <p className="mt-1 text-gray-600 dark:text-gray-300">基于大模型背单词的小脚本
                                     </p>
                                 </div>
@@ -139,6 +139,52 @@ export default function Home() {
                                     </div>
                                     <a href="https://github.com/wangxiuwen/lovebird" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-sm font-medium">查看详情 →</a>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="flex items-start space-x-4">
+                        <div className="flex-shrink-0">
+                            <div className="w-10 h-10 rounded-full bg-gray-300 dark:bg-gray-700 flex items-center justify-center text-gray-600 dark:text-gray-300 font-bold">
+                                访
+                            </div>
+                        </div>
+                        <div className="flex-1 bg-gray-100 dark:bg-gray-800 rounded-lg p-4">
+                            <p className="text-gray-900 dark:text-white">你还出了一本书？</p>
+                        </div>
+                    </div>
+
+                    <div className="flex items-start space-x-4">
+                        <div className="flex-shrink-0">
+                            <div className="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold">
+                                我
+                            </div>
+                        </div>
+                        <div className="flex-1 bg-gray-100 dark:bg-gray-800 rounded-lg p-4 space-y-4">
+                            <div className="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden hover:border-blue-500 dark:hover:border-blue-400 transition-colors">
+                                <div className="relative aspect-video bg-gray-100 dark:bg-gray-800 overflow-hidden p-4 group hover:overflow-visible">
+                                    <Image
+                                        src="/python-excel.png"
+                                        alt="Python Excel书籍封面"
+                                        width={800}
+                                        height={450}
+                                        className="object-cover transform -rotate-12 scale-125 opacity-90 w-full h-full transition-all duration-300 group-hover:rotate-0 group-hover:scale-150 group-hover:z-10"
+                                        style={{ objectFit: 'cover', padding: '0' }}
+                                    />
+                                </div>
+                                <div className="p-4">
+                                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">超简单：用Python让Excel飞起来</h3>
+                                    <p className="mt-1 text-gray-600 dark:text-gray-300">嗯，这是一本介绍如何用 python 来简化办公操作的书。</p>
+                                </div>
+                                <div className="bg-gray-50 dark:bg-gray-900 px-4 py-3 flex justify-between items-center">
+                                    <div className="flex items-center space-x-2">
+                                        <span className="inline-flex items-center px-2 py-1 rounded-md text-xs font-medium bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-300">python</span>
+                                        <span className="inline-flex items-center px-2 py-1 rounded-md text-xs font-medium bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300">excel</span>
+                                        <span className="inline-flex items-center px-2 py-1 rounded-md text-xs font-medium bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300">办公</span>
+                                    </div>
+                                    <a href="https://github.com/wangxiuwen/uunit" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-sm font-medium">查看详情 →</a>
+                                </div>
+
                             </div>
                         </div>
                     </div>
